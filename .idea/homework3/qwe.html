@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+
+        .green-section {
+            height: 100vh;
+            background-color: forestgreen;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        .blue-section{
+            height: 100vh;
+            background-color: dodgerblue;
+            display:flex;
+            justify-content:center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+       .red-section{
+            height: 100vh;
+            background-color: indianred;
+           display:flex;
+           justify-content:center;
+           align-items: center;
+           text-align: center;
+           flex-direction: column;
+        }
+       body{
+           margin:0;
+           padding:0;
+
+       }
+.arrow{
+    margin:10px;
+    cursor: pointer;
+    font-size: 30px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+    </style>
+</head>
+<body>
+
+<section id="red" class="red-section">
+<h1>Selection title</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cum cupiditate dolor fugit minima nemo pariatur quo saepe, totam. Ab adipisci aliquam at consequuntur deleniti inventore iste laboriosam saepe tenetur.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores ea error mollitia quisquam sed sunt totam velit vitae? A consequatur cumque harum ipsum labore minus odit temporibus veniam voluptatum?</p>
+    <a class="arrow" href="#blue">&darr; </a>
+</section>
+
+
+
+<section id="blue" class="blue-section">
+    <a class="arrow" href="#red">&uarr; </a>
+<h1>Selection title</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cum cupiditate dolor fugit minima nemo pariatur quo saepe, totam. Ab adipisci aliquam at consequuntur deleniti inventore iste laboriosam saepe tenetur.</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores ea error mollitia quisquam sed sunt totam velit vitae? A consequatur cumque harum ipsum labore minus odit temporibus veniam voluptatum?</p>
+    <a class="arrow" href="#green">&darr;</a>
+</section>
+
+
+<section id="green" class="green-section">
+    <a class="arrow" href="#blue">&uarr;</a>
+    <h1>Selection title</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cum cupiditate dolor fugit minima nemo pariatur quo saepe, totam. Ab adipisci aliquam at consequuntur deleniti inventore iste laboriosam saepe tenetur.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores ea error mollitia quisquam sed sunt totam velit vitae? A consequatur cumque harum ipsum labore minus odit temporibus veniam voluptatum?</p>
+</section>
+
+
+</body>
+</html>
